@@ -14,7 +14,7 @@ module.exports = function(app) {
         db.forEach((obj, j) => {
             obj.id = j + 1;
         })
-        fs.writeFile(db, JSON.stringify(db), () => {
+        fs.writeFile("./db/db.json", JSON.stringify(db), () => {
             res.json(db);
         })
     });
@@ -26,7 +26,7 @@ module.exports = function(app) {
         db.forEach((obj, j) => {
             obj.id = j + 1;
         });
-        fs.writeFile(db, JSON.stringify(db), () => {
+        fs.writeFile("./db/db.json", JSON.stringify(db), () => {
             res.json(db);
         });
     });
