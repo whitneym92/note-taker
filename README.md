@@ -6,25 +6,21 @@
 
   [Deployed App](https://secure-springs-81431.herokuapp.com/)
   ## Tecnologies Used
-  HTML 
-  CSS
-  JavaScript
-  jQuery
-  Express
-  
+  * HTML 
+  * CSS
+  * JavaScript
+  * jQuery
+  * Express
+
   ## Table of Contents
   [Demo](#Demo)
 
   [Usage](#Usage)
 
   [License](#License)
-
-  [Contributing](#Contributing)
-
-  [Questions](#Questions)
   
   ## Demo
-  ![Demo](/assets/Note-Taker.gif)
+  ![Demo](public/assets/Note-Taker.gif)
   
   ## Usage
    Deployed on Heroku, link here: [Deployed App](https://secure-springs-81431.herokuapp.com/)
